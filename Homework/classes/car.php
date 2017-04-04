@@ -43,7 +43,7 @@ class car {
 			$coef += 0.05;
 		}
 		
-		echo $this->price * $coef;
+		return $this->price * $coef;
 	}
 }
 ;

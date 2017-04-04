@@ -46,4 +46,28 @@ class Person {
 			}
 		}
 	}
+	public function Car_for_scrap(){
+		$price = $this->car->price_for_scrap();
+		$this->money += $price;
+		$this->car->owner = null;
+		$this->car = null;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
