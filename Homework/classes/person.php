@@ -20,7 +20,7 @@ class Person {
 		}
 	}
 	public function buy_car($car) {
-		if (is_object ( $car )) {
+		if (is_object ( $car ) && get_class ( $car ) === 'Car') {
 			if ($car->price > $this->money) {
 				echo "Skapa e!";
 			} else {

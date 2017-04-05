@@ -1,5 +1,5 @@
 <?php
-class car {
+class Car {
 	public $name;
 	public $model;
 	public $type = null;
